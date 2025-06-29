@@ -7,7 +7,7 @@ SRCS	= main.cpp \
 		  ethhdr.cpp \
 		  ip.cpp \
 		  mac.cpp \
-		  utils.cpp
+		  util.cpp
 OBJS	= $(SRCS:.cpp=.o)
 
 all : $(NAME)
